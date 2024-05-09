@@ -1,7 +1,7 @@
 import { ChangeEvent, FormEvent, InvalidEvent, useState } from 'react';
 
 import { format, formatDistanceToNow } from 'date-fns';
-import ptBR from 'date-fns/locale/pt-BR';
+import { ptBR } from 'date-fns/locale';
 
 import { Avatar } from './Avatar';
 import { Comment } from './Comment';
